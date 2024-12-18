@@ -1,0 +1,13 @@
+services:
+
+  postgres:
+    image: postgres
+    container_name: postgres
+    environment:
+      POSTGRES_DB: strapi  # PostgreSQL veritabanı adı
+      POSTGRES_USER: strapi_user  # PostgreSQL kullanıcı adı
+      POSTGRES_PASSWORD: strapi_pass  # PostgreSQL şifresi
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data  # Verilerin kalıcı olması için
+    ports:
+      - "5432:5432"  # PostgreSQL veritabanı için 5432 portu

@@ -1,0 +1,64 @@
+{
+    "kind": "collectionType",
+    "collectionName": "anasayfa_tesislers",
+    "info": {
+        "singularName": "anasayfa-tesisler",
+        "pluralName": "anasayfa-tesislers",
+        "displayName": "ANASAYFA TESİSLER",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "tesisAdi": {
+            "type": "string",
+            "pluginOptions": {}
+        },
+        "slug": {
+            "type": "uid",
+            "targetField": "tesisAdi"
+        },
+        "tesisCardImage": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ],
+            "pluginOptions": {}
+        },
+        "tesisDetailImage": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ],
+            "pluginOptions": {}
+        },
+        "tesisDetail": {
+            "type": "richtext",
+            "pluginOptions": {}
+        },
+        "tesisImages": {
+            "type": "media",
+            "multiple": true,
+            "required": false,
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ],
+            "pluginOptions": {}
+        }
+    }
+}
