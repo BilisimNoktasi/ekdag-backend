@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kiralamalars",
+  "info": {
+    "singularName": "kiralamalar",
+    "pluralName": "kiralamalars",
+    "displayName": "KİRALAMALAR",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "kiralamalar": {
+      "type": "blocks",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

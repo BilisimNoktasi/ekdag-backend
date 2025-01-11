@@ -1,0 +1,16 @@
+services:
+
+  ekdag-container:
+    image: postgres
+    container_name: ekdag-container
+    environment:
+      POSTGRES_DB: ekdag-db # PostgreSQL veritabanı adı
+      POSTGRES_USER: ekdag_user  # PostgreSQL kullanıcı adı
+      POSTGRES_PASSWORD: ekdag_pass  # PostgreSQL şifresi
+    volumes:
+      - ekdag_postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"  # PostgreSQL veritabanı için 5432 portu
+
+volumes:
+  ekdag_postgres_data:

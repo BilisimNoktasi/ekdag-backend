@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "adreslers",
+  "info": {
+    "singularName": "adresler",
+    "pluralName": "adreslers",
+    "displayName": "ADRESLER"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "adresBasligi": {
+      "type": "string"
+    },
+    "adresDetay": {
+      "type": "text"
+    },
+    "telefon": {
+      "type": "string"
+    }
+  }
+}

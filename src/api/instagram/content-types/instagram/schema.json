@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "instagrams",
+  "info": {
+    "singularName": "instagram",
+    "pluralName": "instagrams",
+    "displayName": "INSTAGRAM"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "baslik": {
+      "type": "string"
+    },
+    "url": {
+      "type": "text"
+    }
+  }
+}
